@@ -1,0 +1,27 @@
+node_modules/
+.next/
+out/
+build/
+coverage/
+.npm-cache/
+.env*
+!.env.example
+*.tsbuildinfo
+
+# Source package and internal project notes stay in the local workspace.
+AGENTS.md
+CONTENT_GAPS.md
+PROJECT_STATUS.md
+SHA256SUMS.txt
+START_HERE.md
+VERSION.txt
+docs/
+machine/
+references/
+reports/
+stage1/
+stage2/
+stage3/
+
+# Keep original full-resolution PNGs locally; the site ships optimized WebP copies.
+public/images/*.png
